@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    min-width: 100%;
+    min-height: 100vh;
+}
+.card-login{
+    border-radius: 0.5rem;
+    background-color: #ffe072;
+    display: flex;
+    width: 50%;
+    img {
+        height: 450px;
+    }
+    .box-form {
+        div{
+            margin-bottom: 2rem;
+        h3{
+            margin-bottom: 0;
+            font-size: medium;
+        }
+        span {
+            color: #A9A9A9;
+        }
+        }
+        input{
+            border-radius: 5px;
+            border: 0;
+            padding: 0.5rem;
+        }
+
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

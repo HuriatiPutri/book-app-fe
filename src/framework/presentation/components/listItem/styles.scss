@@ -1,0 +1,11 @@
+.containerRow {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.border {
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 20px;
+    padding-top: 0;
+}

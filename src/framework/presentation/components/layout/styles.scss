@@ -1,0 +1,46 @@
+main {
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+#mobile {
+    display: none;
+}
+
+#desktop {
+    display: block;
+}
+
+header {
+    min-height: 100px;
+    padding: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+header.mobile{
+    padding: 0.5rem 1rem;
+}
+
+section.mobile{
+    max-width: 100%;
+    // background-color: black;
+    display: block;
+}
+section {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 0.16fr 2fr;
+    // background-color: aquamarine;
+    article {
+        padding: 0 1rem;
+        max-width: 100%;
+        // background-color: aqua;
+    }
+}
+
+footer {
+    max-width: 100%;
+    // background-color: yellow;
+}
